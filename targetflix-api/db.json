@@ -1,0 +1,127 @@
+{
+    "filmes": [
+        {
+            "id": 1,
+            "titulo": "Show da Xuxa",                        
+            "avaliacao": 3.5,
+            "genero": "Infantil",
+            "imagem": "https://bit.ly/2knZYpR",
+            "diretor": "Gugu",
+            "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+            "faixaEtaria": 18,
+            "ano": 1997
+        },
+        {
+            "id": 2,
+            "titulo": "Sniper americano",
+            "avaliacao": 4.5,
+            "genero": "Ação",
+            "imagem": "https://bit.ly/2m3C6rY",
+            "diretor": "Clint",
+            "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+            "faixaEtaria": 18,
+            "ano": 1997
+        },
+        {
+            "id": 3,
+            "titulo": "Bastardos Inglorios",
+            "avaliacao": 4.9,
+            "genero": "Ação",
+            "imagem": "https://bit.ly/2m3BCSG",
+            "diretor": "Gugu",
+            "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+            "faixaEtaria": 18,
+            "ano": 1997
+        }
+    ],
+    "categorias": [
+        {
+            "descricao": "Lancamentos",
+            "filmes": [
+                {
+                    "id": 1,
+                    "titulo": "Show da Xuxa",                        
+                    "avaliacao": 3.5,
+                    "genero": "Infantil",
+                    "imagem": "https://bit.ly/2knZYpR",
+                    "diretor": "Gugu",
+                    "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+                    "faixaEtaria": 18,
+                    "ano": 1997
+                },
+                {
+                    "id": 2,
+                    "titulo": "Sniper americano",
+                    "avaliacao": 4.5,
+                    "genero": "Acao",
+                    "imagem": "https://bit.ly/2m3C6rY",
+                    "diretor": "Clint EastWood",
+                    "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+                    "faixaEtaria": 16,
+                    "ano": 1997
+                }
+            ]
+        },
+        {
+            "descricao": "Acao",
+            "filmes": [
+                {
+                    "id": 2,
+                    "titulo": "Sniper americano",
+                    "avaliacao": 4.5,
+                    "genero": "Acao",
+                    "imagem": "https://bit.ly/2m3C6rY",
+                    "diretor": "Clint EastWood",
+                    "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+                    "faixaEtaria": 16,
+                    "ano": 1997
+                },
+                {
+                    "id": 3,
+                    "titulo": "Bastardos Inglorios",
+                    "avaliacao": 4.9,
+                    "genero": "Ação",
+                    "imagem": "https://bit.ly/2m3BCSG",
+                    "diretor": "Quentin Tarantino",
+                    "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+                    "faixaEtaria": 16,
+                    "ano": 1997
+                }
+            ]
+        },
+         {
+            "descricao": "Infantil",
+            "filmes": [
+                {
+                    "id": 1,
+                    "titulo": "Show da Xuxa",                        
+                    "avaliacao": 3.5,
+                    "genero": "Infantil",
+                    "imagem": "https://bit.ly/2knZYpR",
+                    "diretor": "Gugu",
+                    "sinopse": "AS98FHA89SFHA89SFH89ASHF89ASHF98HASF9HFAS",
+                    "faixaEtaria": 16,
+                    "ano": 1997
+                }
+            ]
+        }
+    ],
+    "generos": [
+        {
+            "id": 1,
+            "descricao": "Infantil"
+        },
+        {
+            "id": 2,
+            "descricao": "Ação"
+        },
+        {
+            "id": 3,
+            "descricao": "Aventura"
+        },
+        {
+            "id": 4,
+            "descricao": "Comédia"
+        }
+    ]
+}
