@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+header, footer {
+    background-color: black;
+    color:red;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 40px;
+}
+header .options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .logo {
+    font-size: 36px;
+}
+
+main {
+    display: flex;    
+}
+main > div {
+    width: 100vw;
+    padding: 40px;
+}
+main > aside {
+    width: 50vw;
+    border-left: 1px solid #e3e3e3;
+    padding: 40px;
+    display: none;
+}
+main > aside.exibir {
+    display: block;
+}
+aside#detalhes-filme h1 {
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+#lista-filmes h1 {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+#lista-filmes h1:first-child {
+    margin-top: 0;
+}
+.filme-miniatura {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    margin-right: 15px;
+    box-shadow: #e3e3e3;
+    padding: 15px;
+    color: #fff;
+    background-size: 100% 100%;
+}
+.filme-miniatura:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.filme-miniatura * {
+    display: block;
+}
+
+.menu-generos{
+    position: relative;
+}
+
+.menu-generos ul{
+    position: absolute;
+    width: 200px;
+    border-radius: 20px;
+    background: #e3e3e3;
+    margin-top: 10px;
+    margin-left: -50%;
+    display: none;
+    list-style: none;
+}
+
+.menu-generos ul li{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.menu-generos ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-generos ul.exibir{
+    display:block;
+}
+
+.menu-generos ul:before{
+    content:'';
+    display: inline-block;
+    border: 5px solid transparent;
+    border-bottom-color: #e3e3e3;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: 2.5px;
+}
+
+img.detalhes-imagem{
+    width: 100px;
+    height: 200px;
+}
+
+/* header .options a {
+} */
